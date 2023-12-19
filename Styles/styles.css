@@ -1,0 +1,25 @@
+.fondo-oscuro {
+    background-color: #2A123F;
+}
+
+.fondo-claro {
+    background-color: #F9DEF9;
+}
+
+.lista-sin-estilo {
+    list-style: none;
+}
+
+.filtros {
+    background-color: white;
+}
+
+main {
+    margin-left: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

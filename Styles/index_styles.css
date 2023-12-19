@@ -1,0 +1,16 @@
+#boton-especial {
+    height: 84px;
+    width: 262px;
+    border: 1px solid black;
+    background-color: #53257E;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 8px;
+    text-align: center;
+}
+
+#comprar {
+    color: white;
+    text-decoration: none;
+}

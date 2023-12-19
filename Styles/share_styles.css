@@ -1,0 +1,13 @@
+.fondo-oscuro {
+    background-color: #2A123F;
+}
+
+.fondo-claro {
+    background-color: #F9DEF9;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

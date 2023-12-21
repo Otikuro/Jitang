@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+}
+
 .fondo-oscuro {
     background-color: #2A123F;
 }
@@ -10,4 +20,8 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+#logo {
+    font-size: 64px !important;
 }

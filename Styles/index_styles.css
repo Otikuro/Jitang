@@ -1,3 +1,9 @@
+.bg-img {
+    background-image: url('../img/f.png');
+    background-repeat: vertical;
+    background-size: cover;
+}
+
 #boton-especial {
     height: 84px;
     width: 262px;

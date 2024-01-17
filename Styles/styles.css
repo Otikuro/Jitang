@@ -9,3 +9,14 @@
 main {
     margin-left: 0;
 }
+
+.product-img {
+    max-height: 150px;
+    aspect-ratio: auto 1/1;
+}
+
+.boton-comprar {
+    border-radius: 40px !important;
+    background: #53257E !important;
+    border-color: #53257E !important;
+}

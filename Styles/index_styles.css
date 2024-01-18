@@ -1,7 +1,30 @@
+body {
+    height: 100vh;
+}
+
 .bg-img {
     background-image: url('../img/f.png');
-    background-repeat: vertical;
-    background-size: cover;
+}
+
+@media screen and (min-width:1555px) {
+    .bg-img {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width:1555px) {
+    .bg-img {
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+}
+
+main {
+    align-content: center;
+    justify-content: center;
 }
 
 #boton-especial {
@@ -14,6 +37,7 @@
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 8px;
     text-align: center;
+    margin-top: 60vh;
 }
 
 #comprar {

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 h1,
 h2,
 h3,
@@ -17,9 +22,9 @@ h5 {
 }
 
 footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
+    align-self: flex-end;
 }
 
 #logo {

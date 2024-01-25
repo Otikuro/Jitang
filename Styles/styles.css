@@ -2,8 +2,19 @@
     list-style: none;
 }
 
-.filtros {
+#filtros {
     background-color: white;
+    border-radius: 16px;
+    padding: 0;
+}
+
+#filtros>.title {
+    background-color: #53257E;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    margin: 0;
+    text-align: center;
+    color: white;
 }
 
 main {
@@ -21,3 +32,5 @@ main {
     background: #53257E !important;
     border-color: #53257E !important;
 }
+
+.filtros {}

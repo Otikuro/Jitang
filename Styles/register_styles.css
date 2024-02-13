@@ -1,0 +1,30 @@
+#register-form {
+    border-radius: 16px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 512px;
+    padding: 16px;
+
+    gap: 8px;
+
+    height: fit-content;
+    overflow-y: auto;
+}
+
+.selector-inside,
+.submits-inside {
+    display: flex;
+    justify-content: center;
+}
+
+.submits-inside {
+    margin: 8px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}

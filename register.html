@@ -15,10 +15,10 @@
 <body class="fondo-claro">
     <nav class="navbar navbar-expand-sm navbar-dark fondo-oscuro d-flex align-items-start">
         <div id="rrss" class="d-none d-lg-block">
-            <img src="./img/svg/Instagram blanco.svg" alt="">
-            <img src="./img/svg/Facebook blanco.svg" alt="">
-            <img src="./img/svg/Pinterest blanco.svg" alt="">
-            <img src="./img/svg/Youtube blanco.svg" alt="">
+            <img src="./img/svg/Instagram blanco.svg" alt="Instagram">
+            <img src="./img/svg/Facebook blanco.svg" alt="Facebook">
+            <img src="./img/svg/Pinterest blanco.svg" alt="Pinterest">
+            <img src="./img/svg/Youtube blanco.svg" alt="Youtube">
         </div>
 
         <div class="container d-flex flex-column">
@@ -31,6 +31,7 @@
             <div class="row">
                 <div class="col">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        Menú
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -47,42 +48,44 @@
             </div>
         </div>
         <div id="rrss" class="d-none d-lg-block">
-            <img src="./img/svg/Lupa blanca.svg" alt="">
-            <a href="./register.html"><img src="./img/svg/Usuario Blanco.svg" alt=""></a>
-            <img src="./img/svg/Cesta Blanca.svg" alt="">
+            <img src="./img/svg/Lupa blanca.svg" alt="Buscador">
+            <a href="./register.html"><img src="./img/svg/Usuario Blanco.svg" alt="Registrar usuario"></a>
+            <img src="./img/svg/Cesta Blanca.svg" alt="Carrito de la compra">
         </div>
     </nav>
     <main class="d-flex h-100">
         <form action="" id="register-form">
-            <label for="">Usuario</label>
+            <label for="usuario">Usuario</label>
             <input type="text" name="usuario" id="usuario" required>
-            <label for="">Contraseña</label>
-            <input type="password" name="contrasenna1" id="" required
+            <label for="constrasenna">Contraseña</label>
+            <input type="password" name="contrasenna1" id="constrasenna" required
                 pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
                 title="La contraseña debe tener una mayúscula, una minúscula, un número y un caracter especial">
-            <label for="">Repetir contraseña</label>
-            <input type="password" name="contrasenna2" id="" required
+            <label for="constrasennaRepetida">Repetir contraseña</label>
+            <input type="password" name="contrasenna2" id="constrasennaRepetida" required
                 pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
                 title="La contraseña debe tener una mayúscula, una minúscula, un número y un caracter especial">
             <span id="password-tag" style="color: red; visibility: hidden;">*Las contraseñas deben ser iguales</span>
 
 
-            <label for="">Nombre y apellidos</label>
-            <input type="text" name="nombre-completo" id="">
+            <label for="nombreApellidos">Nombre y apellidos</label>
+            <input type="text" name="nombre-completo" id="nombreApellidos">
 
-            <label for="">Sexo</label>
-            <div class="selector-inside">
-                <input type="radio" name="sexo" id="masculino" value="masculino">
-                <label for="masculino">Masculino</label>
-            </div>
-            <div class="selector-inside">
-                <input type="radio" name="sexo" id="femenino" value="femenino">
-                <label for="femenino" class="inline">Femenino</label>
-            </div>
-            <div class="selector-inside">
-                <input type="radio" name="sexo" id="otro" value="otro">
-                <label for="otro" class="inline">Otro</label>
-            </div>
+            <fieldset>
+                <legend>Sexo</legend>
+                <div class="selector-inside">
+                    <input type="radio" name="sexo" id="masculino" value="masculino">
+                    <label for="masculino">Masculino</label>
+                </div>
+                <div class="selector-inside">
+                    <input type="radio" name="sexo" id="femenino" value="femenino">
+                    <label for="femenino" class="inline">Femenino</label>
+                </div>
+                <div class="selector-inside">
+                    <input type="radio" name="sexo" id="otro" value="otro">
+                    <label for="otro" class="inline">Otro</label>
+                </div>
+            </fieldset>
 
             <label for="fecha-nacimiento">Fecha de nacimiento</label>
             <input type="date" name="fecha-nacimiento" id="fecha-nacimiento">
@@ -134,12 +137,13 @@
                 <label for="videojuegos">Jugar videojuegos</label>
             </div>
 
-            <label for="">Comentarios</label>
-            <input type="text-area" name="comentarios" id="">
+            <label for="comentarios">Comentarios</label>
+            <input type="text-area" name="comentarios" id="comentarios">
 
             <div class="submits-inside">
+                <input type="reset" value="Reiniciar Formulario" id="resetear">
+                <label for="resetear" style="visibility: hidden;">Resetear el formulario</label>
                 <input type="submit" value="Envíar">
-                <input type="reset" value="Reiniciar Formulario">
             </div>
 
         </form>

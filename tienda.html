@@ -18,7 +18,7 @@
 
 <body class="fondo-claro">
     <nav class="navbar navbar-expand-sm navbar-dark fondo-oscuro d-flex align-items-start">
-        <div class="rrss" class="d-none d-lg-block">
+        <div id="rrss" class="d-none d-lg-block">
             <img src="./img/svg/Instagram blanco.svg" alt="Instagram">
             <img src="./img/svg/Facebook blanco.svg" alt="Facebook">
             <img src="./img/svg/Pinterest blanco.svg" alt="Pinterest">
@@ -41,6 +41,7 @@
 
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a href="welcome.html" class="nav-link text-white">Bienvenido</a></li>
                             <li class="nav-item"><a href="tienda.html" class="nav-link text-white">Labios</a></li>
                             <li class="nav-item"><a href="tienda.html" class="nav-link text-white">Ojos</a></li>
                             <li class="nav-item"><a href="tienda.html" class="nav-link text-white">Rostro</a></li>
@@ -51,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="rrss" class="d-none d-lg-block">
+        <div id="rrss" class="d-none d-lg-block">
             <img src="./img/svg/Lupa blanca.svg" alt="Buscador">
             <a href="./register.html"><img src="./img/svg/Usuario Blanco.svg" alt="Registrar usuario"></a>
             <img src="./img/svg/Cesta Blanca.svg" alt="Carrito de la compra">
@@ -209,13 +210,14 @@
     </main>
 
 
-    <footer class="footer fondo-oscuro">
+    <footer class="footer fondo-oscuro d-flex justify-content-between">
+        <div class="logo-ies"></div>
         <div class="container">
             <div class="row d-flex flex-column align-content-center">
                 <div class="col-lg-4 text-center align-self-center">
                     <p class="text-white">©2023 JITANG PROFESSIONAL MAKEUP</p>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <ul class="list-group list-group-horizontal d-flex justify-content-between">
                         <li><a href="#" class="text-white">Política de Privacidad </a></li>
                         <li><a href="#" class="text-white">Aviso legal</a></li>
@@ -225,6 +227,9 @@
                 </div>
             </div>
         </div>
+        <a href="https://www.educa2.madrid.org/web/centro.ies.ciudadescolar.madrid" class="logo-ies">
+            <img src="img/logo_ies.jpg" alt="">
+        </a>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
